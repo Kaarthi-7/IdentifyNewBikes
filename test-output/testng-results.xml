@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T15:46:09 IST" name="Suite" finished-at="2024-02-28T15:46:10 IST" duration-ms="1135">
+    <groups>
+      <group name="regression">
+        <method signature="NewBikesSearch.NavigateToUpcomingBikes()[pri:1, instance:testNGTestCases.SignInPage@69c81773]" name="NavigateToUpcomingBikes" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.UpcomingBikes()[pri:2, instance:testNGTestCases.SignInPage@69c81773]" name="UpcomingBikes" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="UsedCarsSearch.navigateToUsedCars()[pri:3, instance:testNGTestCases.SignInPage@69c81773]" name="navigateToUsedCars" class="testNGTestCases.UsedCarsSearch"/>
+        <method signature="UsedCarsSearch.usedCars()[pri:4, instance:testNGTestCases.SignInPage@69c81773]" name="usedCars" class="testNGTestCases.UsedCarsSearch"/>
+        <method signature="SignInPage.ClickonSignIn()[pri:5, instance:testNGTestCases.SignInPage@69c81773]" name="ClickonSignIn" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.captureSigninError()[pri:6, instance:testNGTestCases.SignInPage@69c81773]" name="captureSigninError" class="testNGTestCases.SignInPage"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="NewBikesSearch.NavigateToUpcomingBikes()[pri:1, instance:testNGTestCases.SignInPage@69c81773]" name="NavigateToUpcomingBikes" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="NewBikesSearch.UpcomingBikes()[pri:2, instance:testNGTestCases.SignInPage@69c81773]" name="UpcomingBikes" class="testNGTestCases.NewBikesSearch"/>
+        <method signature="SignInPage.ClickonSignIn()[pri:5, instance:testNGTestCases.SignInPage@69c81773]" name="ClickonSignIn" class="testNGTestCases.SignInPage"/>
+        <method signature="SignInPage.captureSigninError()[pri:6, instance:testNGTestCases.SignInPage@69c81773]" name="captureSigninError" class="testNGTestCases.SignInPage"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-02-28T15:46:09 IST" name="Edge" finished-at="2024-02-28T15:46:10 IST" duration-ms="1135">
+      <class name="testNGTestCases.SignInPage">
+        <test-method is-config="true" signature="siteLaunch()[pri:0, instance:testNGTestCases.SignInPage@69c81773]" started-at="2024-02-28T15:46:09 IST" name="siteLaunch" finished-at="2024-02-28T15:46:09 IST" duration-ms="51" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null
+at factory.BaseClass.initilizeBrowser(BaseClass.java:63)
+at testNGTestCases.Setup.siteLaunch(Setup.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteLaunch -->
+        <test-method signature="NavigateToUpcomingBikes()[pri:1, instance:testNGTestCases.SignInPage@69c81773]" started-at="2024-02-28T15:46:10 IST" name="NavigateToUpcomingBikes" finished-at="2024-02-28T15:46:10 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null
+at factory.BaseClass.initilizeBrowser(BaseClass.java:63)
+at testNGTestCases.Setup.siteLaunch(Setup.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToUpcomingBikes -->
+        <test-method signature="UpcomingBikes()[pri:2, instance:testNGTestCases.SignInPage@69c81773]" started-at="2024-02-28T15:46:10 IST" name="UpcomingBikes" finished-at="2024-02-28T15:46:10 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null
+at factory.BaseClass.initilizeBrowser(BaseClass.java:63)
+at testNGTestCases.Setup.siteLaunch(Setup.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpcomingBikes -->
+        <test-method signature="navigateToUsedCars()[pri:3, instance:testNGTestCases.SignInPage@69c81773]" started-at="2024-02-28T15:46:10 IST" name="navigateToUsedCars" finished-at="2024-02-28T15:46:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null
+at factory.BaseClass.initilizeBrowser(BaseClass.java:63)
+at testNGTestCases.Setup.siteLaunch(Setup.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUsedCars -->
+        <test-method signature="usedCars()[pri:4, instance:testNGTestCases.SignInPage@69c81773]" started-at="2024-02-28T15:46:10 IST" name="usedCars" finished-at="2024-02-28T15:46:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null
+at factory.BaseClass.initilizeBrowser(BaseClass.java:63)
+at testNGTestCases.Setup.siteLaunch(Setup.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCars -->
+        <test-method signature="ClickonSignIn()[pri:5, instance:testNGTestCases.SignInPage@69c81773]" started-at="2024-02-28T15:46:10 IST" name="ClickonSignIn" finished-at="2024-02-28T15:46:10 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null
+at factory.BaseClass.initilizeBrowser(BaseClass.java:63)
+at testNGTestCases.Setup.siteLaunch(Setup.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonSignIn -->
+        <test-method signature="captureSigninError()[pri:6, instance:testNGTestCases.SignInPage@69c81773]" started-at="2024-02-28T15:46:10 IST" name="captureSigninError" finished-at="2024-02-28T15:46:10 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "java.util.Properties.getProperty(String)" is null
+at factory.BaseClass.initilizeBrowser(BaseClass.java:63)
+at testNGTestCases.Setup.siteLaunch(Setup.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureSigninError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGTestCases.SignInPage@69c81773]" started-at="2024-02-28T15:46:11 IST" name="tearDown" finished-at="2024-02-28T15:46:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGTestCases.SignInPage -->
+    </test> <!-- Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
