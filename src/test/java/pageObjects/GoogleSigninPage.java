@@ -16,7 +16,7 @@ public class GoogleSigninPage extends BasePage {
 	@FindBy(id = "identifierId")
 	WebElement Username;
 	
-	@FindBy(xpath = "//div[@class='Ekjuhf Jj6Lae']")
+	@FindBy(xpath = "//div[@class='o6cuMc Jj6Lae']")
 	WebElement error;
 	
 	public void Signin() {
