@@ -16,8 +16,9 @@ public class GoogleSigninPage extends BasePage {
 	@FindBy(id = "identifierId")
 	WebElement Username;
 	
-	@FindBy(xpath = "//div[@class='o6cuMc Jj6Lae']")
+	@FindBy(xpath = "//div[@class='LXRPh']//div[@class='dEOOab RxsGPe']/div")
 	WebElement error;
+
 	
 	public void Signin() {
 		Username.click();
@@ -29,6 +30,7 @@ public class GoogleSigninPage extends BasePage {
 		ExcelUtilities EU = new ExcelUtilities();
 		Thread.sleep(5000);
 		System.out.println(error.getText());
+		System.out.println("==================================================");
 		EU.write(1,4,error.getText());
 	}
 }
