@@ -1,49 +1,9 @@
-15:48:54.115 [main] INFO  factory.BaseClass - ----Successfully navigated to Used Cars----
-15:48:59.215 [main] INFO  factory.BaseClass - ----Successfully printed the details of the popular car models----
-15:49:10.742 [main] INFO  factory.BaseClass - ----Opened the sign In using google page----
-15:49:20.817 [main] INFO  factory.BaseClass - ----Captured the error successfully----
-15:51:17.008 [main] INFO  factory.BaseClass - ----Successfully clicked on the upcoming Bikes----
-15:51:31.822 [main] INFO  factory.BaseClass - ----Successfully printed the details of the upcoming bikes----
-15:51:46.216 [main] INFO  factory.BaseClass - ----Successfully clicked on the Used Cars----
-15:51:51.322 [main] INFO  factory.BaseClass - ----Successfully displayed the car brand name----
-15:52:03.508 [main] INFO  factory.BaseClass - ----Successfully clicked on the google----
-15:52:11.296 [main] INFO  factory.BaseClass - ----Successfully captured the Error message----
-16:00:56.560 [main] INFO  factory.BaseClass - ----Successfully clicked on the Page Logo----
-16:01:00.074 [main] INFO  factory.BaseClass - ----Successfully navigated on the Upcoming Bikes----
-16:01:26.614 [main] INFO  factory.BaseClass - ----Successfully printed the details of upcoming bikes----
-16:01:36.574 [main] INFO  factory.BaseClass - ----Successfully navigated to Used Cars----
-16:01:40.936 [main] INFO  factory.BaseClass - ----Successfully printed the details of the popular car models----
-16:01:52.541 [main] INFO  factory.BaseClass - ----Opened the sign In using google page----
-16:02:11.584 [main] INFO  factory.BaseClass - ----Captured the error successfully----
-16:02:42.989 [main] INFO  factory.BaseClass - ----Successfully clicked on the upcoming Bikes----
-16:03:00.310 [main] INFO  factory.BaseClass - ----Successfully printed the details of the upcoming bikes----
-16:03:10.624 [main] INFO  factory.BaseClass - ----Successfully clicked on the Used Cars----
-16:03:14.681 [main] INFO  factory.BaseClass - ----Successfully displayed the car brand name----
-16:03:26.466 [main] INFO  factory.BaseClass - ----Successfully clicked on the google----
-16:03:33.276 [main] INFO  factory.BaseClass - ----Successfully captured the Error message----
-17:03:45.797 [main] INFO  factory.BaseClass - ----Successfully clicked on the Page Logo----
-17:03:52.520 [main] INFO  factory.BaseClass - ----Successfully navigated on the Upcoming Bikes----
-17:04:21.643 [main] INFO  factory.BaseClass - ----Successfully printed the details of upcoming bikes----
-17:04:36.618 [main] INFO  factory.BaseClass - ----Successfully navigated to Used Cars----
-17:04:40.986 [main] INFO  factory.BaseClass - ----Successfully printed the details of the popular car models----
-17:04:53.680 [main] INFO  factory.BaseClass - ----Opened the sign In using google page----
-17:05:00.579 [main] INFO  factory.BaseClass - ----Captured the error successfully----
-17:05:31.182 [main] INFO  factory.BaseClass - ----Successfully clicked on the upcoming Bikes----
-17:05:52.478 [main] INFO  factory.BaseClass - ----Successfully printed the details of the upcoming bikes----
-17:06:29.354 [main] INFO  factory.BaseClass - ----Successfully clicked on the Used Cars----
-17:06:34.264 [main] INFO  factory.BaseClass - ----Successfully displayed the car brand name----
-17:06:47.052 [main] INFO  factory.BaseClass - ----Successfully clicked on the google----
-17:06:55.187 [main] INFO  factory.BaseClass - ----Successfully captured the Error message----
-17:20:59.447 [main] INFO  factory.BaseClass - ----Successfully clicked on the Page Logo----
-17:21:03.806 [main] INFO  factory.BaseClass - ----Successfully navigated on the Upcoming Bikes----
-17:21:33.452 [main] INFO  factory.BaseClass - ----Successfully printed the details of upcoming bikes----
-17:22:07.198 [main] INFO  factory.BaseClass - ----Successfully navigated to Used Cars----
-17:22:13.251 [main] INFO  factory.BaseClass - ----Successfully printed the details of the popular car models----
-17:22:27.421 [main] INFO  factory.BaseClass - ----Opened the sign In using google page----
-17:22:37.475 [main] INFO  factory.BaseClass - ----Captured the error successfully----
-17:24:06.476 [main] INFO  factory.BaseClass - ----Successfully clicked on the upcoming Bikes----
-17:24:35.960 [main] INFO  factory.BaseClass - ----Successfully printed the details of the upcoming bikes----
-17:25:07.860 [main] INFO  factory.BaseClass - ----Successfully clicked on the Used Cars----
-17:25:14.215 [main] INFO  factory.BaseClass - ----Successfully displayed the car brand name----
-17:25:26.798 [main] INFO  factory.BaseClass - ----Successfully clicked on the google----
-17:25:36.586 [main] INFO  factory.BaseClass - ----Successfully captured the Error message----
+17:55:28.691 [main] INFO  factory.BaseClass - ----Successfully navigated to Used Cars----
+17:55:30.464 [main] INFO  factory.BaseClass - ----Successfully printed the details of the popular car models----
+17:55:42.941 [main] INFO  factory.BaseClass - ----Opened the sign In using google page----
+17:55:49.401 [main] INFO  factory.BaseClass - ----Captured the error successfully----
+17:56:30.220 [main] INFO  factory.BaseClass - ----Successfully clicked on the upcoming Bikes----
+17:56:41.948 [main] INFO  factory.BaseClass - ----Successfully printed the details of the upcoming bikes----
+17:56:56.588 [main] INFO  factory.BaseClass - ----Successfully clicked on the Used Cars----
+17:56:57.718 [main] INFO  factory.BaseClass - ----Successfully displayed the car brand name----
+17:57:09.888 [main] INFO  factory.BaseClass - ----Successfully clicked on the google----
