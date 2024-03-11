@@ -48,7 +48,7 @@ public class UpcomingBikesPage extends BasePage{
 	
 	public void load() throws Exception {
 		JavascriptExecutor JS = (JavascriptExecutor)driver;
-		JS.executeScript("window.scrollBy(0,1500)", "");
+		JS.executeScript("window.scrollBy(0,1350)", "");
 		Thread.sleep(5000);
 		ShowMore.click();
 	}
